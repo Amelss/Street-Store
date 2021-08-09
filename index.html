@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Store</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="checkout">
+    <div class="top">
+    <header>
+        <img src="/images/toppng.com-logo-store-png-clothing-shop-logo-775x530.png" alt="logo" width="120px">
+    </header>
+
+    <div class="payment">
+        <div id="card">
+<h6>PAY WITH CARD</h6>
+<img id="visa" src="/images/cards.png" alt="collection of cards" width="150px">
+</div>
+<div id="paypal">
+<h6>PAY WITH PAYPAL</h6>
+<img id="payp" src="/images/pngwing.com.png" alt="paypal logo" width="90px">
+</div>
+    </div>
+</div>
+    <div class="bottom-form">
+<form action="#" id="checkout" method="post" name="checkout">
+<input type="text" id="cardholder" name="cardholder" placeholder="CARDHOLDER NAME" required aria-required="true">
+<br>
+<input type="number" id="cardnum"   name="cardnum" placeholder="CARD NUMBER" required aria-required="true">
+<br>
+<input type="number" id="expiry" name="expiry" placeholder="EXP MM/YY" required aria-required="true">
+<input type="number" id="cvv" name="cvv" placeholder="CVV" required aria-required="true">
+<br>
+<button id="checkout-btn">PAY NOW</button>
+</form>
+    </div>
+</div>
+
+    
+
+
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
